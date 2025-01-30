@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Storage Systems | EcoMoTech</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="mobility.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">EcoMoTech</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#services">Services</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Products</a>
+                    <div class="dropdown-content">
+                        <a href="electric-mobility.html">Electric Mobility</a>
+                        <a href="../solar/solar-energy.html">Solar Energy Solutions</a>
+                        <a href="../BESS/battery-storage.html">Battery Storage Systems</a>
+                    </div>
+                </li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Battery Energy Storage Systems Solutions</h1>
+        <p>Powering a Sustainable Future</p>
+    </header>
+
+    <div class="container">
+        <div class="products-grid" id="productsGrid">
+            <!-- Products will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div class="product-details" id="modalContent">
+                <!-- Modal content will be dynamically inserted here -->
+            </div>
+            <!-- Modal content will be dynamically inserted here -->
+            <div class="modal-gallery" id="zoomModal">
+                <span class="close-zoom" onclick="closeZoom()">&times;</span>
+                <img id="zoomImage" src="" alt="Zoomed image">
+                <div class="nav-buttons">
+                    <button class="nav-button" onclick="prevImage()">Previous</button>
+                    <button class="nav-button" onclick="nextImage()">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="mobility data.js"></script>
+    <script src="mobility app.js"></script>
+</body>
+</html>
