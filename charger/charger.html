@@ -1,11 +1,11 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electric Mobility | EcoMoTech</title>
-    <link rel="stylesheet" href="solar-energy.css">
+    <title>Battery Storage Systems | EcoMoTech</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="charger.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -21,9 +21,9 @@
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Products</a>
                     <div class="dropdown-content">
+                        <a href="charger.html">EV Charging Solutions</a>
                         <a href="../mobility/mobility.html">Electric Mobility</a>
-                        <a href="../charger/charger.html">EV Charging Solutions</a>
-                        <a href="solar-energy.html">Solar Energy Solutions</a>
+                        <a href="../solar/solar-energy.html">Solar Energy Solutions</a>
                         <a href="../BESS/battery-storage.html">Battery Storage Systems</a>
                     </div>
                 </li>
@@ -33,7 +33,7 @@
     </nav>
 
     <header>
-        <h1>EcoSolar Solutions</h1>
+        <h1>Battery Energy Storage Systems Solutions</h1>
         <p>Powering a Sustainable Future</p>
     </header>
 
@@ -49,10 +49,19 @@
             <div class="product-details" id="modalContent">
                 <!-- Modal content will be dynamically inserted here -->
             </div>
+            <!-- Modal content will be dynamically inserted here -->
+            <div class="modal-gallery" id="zoomModal">
+                <span class="close-zoom" onclick="closeZoom()">&times;</span>
+                <img id="zoomImage" src="" alt="Zoomed image">
+                <div class="nav-buttons">
+                    <button class="nav-button" onclick="prevImage()">Previous</button>
+                    <button class="nav-button" onclick="nextImage()">Next</button>
+                </div>
+            </div>
         </div>
     </div>
 
-    <script src="solar-energy data.js"></script>
-    <script src="solar-energy app.js"></script>
+    <script src="charger data.js"></script>
+    <script src="charger app.js"></script>
 </body>
 </html>
