@@ -20,10 +20,10 @@
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Products</a>
                     <div class="dropdown-content">
-                        <a href="mobility\mobility.html">Electric Mobility</a>
-                        <a href="charger\charger.html">EV Charging Solutions</a>
-                        <a href="solar\solar-energy.html">Solar Energy Solutions</a>
-                        <a href="BESS\battery-storage.html">Battery Storage Systems</a>
+                        <a href="mobility/mobility.html"><i class="fas fa-car"></i> Electric Mobility</a>
+                        <a href="charger/charger.html"><i class="fas fa-charging-station"></i> EV Charging Solutions</a>
+                        <a href="solar/solar-energy.html"><i class="fas fa-solar-panel"></i> Solar Energy Solutions</a>
+                        <a href="BESS/battery-storage.html"><i class="fas fa-battery-full"></i> Battery Storage Systems</a>
                     </div>
                 </li>
             </ul>
@@ -32,32 +32,41 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <h1>Driving the Future with Clean Energy and Sustainable Mobility</h1>
-            <p>Electric Mobility | Solar Solutions | Energy Storage Systems</p>
-            <a href="#contact" class="cta-button">Get Started</a>
-        </div>
-    </section>
+<section id="home" class="hero">
+    <!-- Image Slides -->
+    <div class="hero-slides">
+        <div class="slide" style="background-image: url('img/batt.png')"></div>
+        <div class="slide" style="background-image: url('img/cover.jpg')"></div>
+        <div class="slide" style="background-image: url('img/EV charger solution.jpg')"></div>
+        <div class="slide" style="background-image: url('img/tianniu red.jpg')"></div>
+    </div>
+    
+    <!-- Content Overlay -->
+    <div class="container">
+        <h1>Driving the Future with Clean Energy and Sustainable Mobility</h1>
+        <p>Electric Mobility | Solar Solutions | Energy Storage Systems</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+</section>
 
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
             <div class="services-grid">
-                <a href="mobility\mobility.html" class="service-card" style="background-image: url('mobility/img/6061.jpg'); background-size: cover; background-position: center;">
+                <a href="mobility/mobility.html" class="service-card electric-mobility">
                     <h3>Electric Mobility</h3>
                     <p>Next-gen of Sustainable Smart Mobility, Powered by Innovation.</p>
                 </a>
-                <a href="charger\charger.html" class="service-card" style="background-image: url('charger/img/EV charger solution.jpg'); background-size: cover; background-position: center;">
+                <a href="charger/charger.html" class="service-card ev-charging">
                     <h3>EV Charging Solutions</h3>
                     <p>Next-gen EV charging solutions for homes and businesses.</p>
                 </a>
-                <a href="solar\solar-energy.html" class="service-card" style="background-image: url('panels.jpg'); background-size: cover; background-position: center;">
+                <a href="solar/solar-energy.html" class="service-card solar-energy">
                     <h3>Solar Energy Solutions</h3>
                     <p>Residential and commercial solar panel installations.</p>
                 </a>
-                <a href="BESS\battery-storage.html" class="service-card" style="background-image: url('battery system.webp'); background-size: cover; background-position: center;">
+                <a href="BESS/battery-storage.html" class="service-card battery-storage">
                     <h3>Battery Storage Systems</h3>
                     <p>Efficient energy storage systems for uninterrupted power.</p>
                 </a>
@@ -71,9 +80,9 @@
             <h2>Contact Us</h2>
             <div class="contact-container">
                 <form id="contactForm">
-                    <input type="text" placeholder="Name" required>
-                    <input type="email" placeholder="Email" required>
-                    <textarea placeholder="Message" required></textarea>
+                    <input type="text" name="from_name" placeholder="Name" required>  <!-- Changed name -->
+                    <input type="email" name="from_email" placeholder="Email" required>  <!-- Changed name -->
+                    <textarea name="message" placeholder="Message" required></textarea>  <!-- Keep same -->
                     <button type="submit" class="cta-button">Send Message</button>
                 </form>
                 <div class="reach-us">
@@ -100,5 +109,13 @@
     </footer>
 
     <script src="script.js"></script>
+    <!-- Add this right before the closing </body> tag in index.html -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    // Initialize EmailJS with your public key
+    (function() {
+        emailjs.init('L2DkGjfmnyn-pOmed');
+    })();
+</script>
 </body>
 </html>
