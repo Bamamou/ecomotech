@@ -3,8 +3,8 @@
 function createProductCard(product) {
     return `
         <div class="product-card" onclick="showProduct(${product.id})">
-            <div class="product-image">
-                <img src="/api/placeholder/400/300" alt="${product.name}">
+             <div class="product-image">
+                <img src="${product.mainImage}" alt="${product.name}" loading="lazy">
             </div>
             <div class="product-info">
                 <h3 class="product-title">${product.name}</h3>

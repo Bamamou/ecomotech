@@ -198,11 +198,11 @@ body {
 
 /* Background Images for Service Cards */
 .service-card.electric-mobility {
-    background-image: url('mobility/img/6061.jpg');
+    background-image: url('mobility/img/tianniuopen.avif');
 }
 
 .service-card.ev-charging {
-    background-image: url('charger/img/EV charger solution.jpg');
+    background-image: url('charger/img/14kW.jpg');
 }
 
 .service-card.solar-energy {
