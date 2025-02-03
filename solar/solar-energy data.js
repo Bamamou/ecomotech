@@ -118,7 +118,7 @@ const products = [
         dimensions: "1956 x 992 x 40mm",
         weight: "22.5 kg",
         description: "Advanced monocrystalline solar panel with high efficiency and durability. Ideal for residential and commercial use. Features a sleek design and robust construction.",
-        mainImage: "img/790W solar-panel-500x500.webp", // Replace with: "img/sp1000-main.jpg"
+        mainImage: "img/zujian.png", // Replace with: "img/sp1000-main.jpg"
         images: [
             "img/SP-1001.jpg",
             "img/SP-1001-1.jpg",
