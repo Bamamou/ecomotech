@@ -2,13 +2,13 @@
 const products = [
     {
         id: 1,
-        name: "Evoke 6061",
-        price: "$8000",
-        power: 400,
-        efficiency: 20.0,
-        warranty: "25 Years",
-        dimensions: "1956 x 992 x 40mm",
-        weight: "22.5 kg",
+        name: "EcoMoTech V9", /* V9 */
+        price: "1999",
+        Motor_power: 3000,
+        Max_Speed: 90,
+        Battery: "72V60Ah",
+        Range: "130km",
+        Controller: "Votol EM150",
         description: `Premium monocrystalline solar panel featuring PERC cell technology. 
         This high-efficiency panel delivers exceptional performance in low-light conditions. 
         The anti-reflective glass coating and robust aluminum frame ensure maximum durability. 
@@ -18,23 +18,23 @@ const products = [
         • Salt mist and ammonia resistance
         • PID resistance
         • Compatible with most inverter systems`,
-        mainImage: "img/6061.jpg", // Replace with: "img/sp1000-main.jpg"
+        mainImage: "img/V9 Bleu.png", // Replace with: "img/sp1000-main.jpg"
         images: [
-            "/api/placeholder/400/300", // Replace with: "img/sp1000-main.jpg"
-            "/api/placeholder/400/300", // Replace with: "img/sp1000-angle.jpg"
-            "/api/placeholder/400/300", // Replace with: "img/sp1000-detail.jpg"
-            "/api/placeholder/400/300"  // Replace with: "img/sp1000-install.jpg"
+            "img/V9 yellow Black.jpg", // Replace with: "img/sp1000-main.jpg"
+            "img/V9 yellow.png", // Replace with: "img/sp1000-angle.jpg"
+            "img/V9 Black.png", // Replace with: "img/sp1000-detail.jpg"
+            "img/V9 white.png"  // Replace with: "img/sp1000-install.jpg"
         ]
     },
     {
         id: 2,
         name: "Tian Niu",
-        price: "$1500",
-        power: 450,
-        efficiency: 21.3,
-        warranty: "25 Years",
-        dimensions: "2008 x 1002 x 40mm",
-        weight: "23.5 kg",
+        price: "$8000",
+        Motor_power: 400,
+        Max_Speed: 20.0,
+        Battery: "25 Years",
+        Range: "1956 x 992 x 40mm",
+        Controller: "22.5 kg",
         description: `High-power bifacial solar panel with transparent back sheet. 
         Captures both direct and reflected sunlight for up to 30% higher energy yield. 
         Ideal for ground-mounted installations and carports. Features:
@@ -53,13 +53,13 @@ const products = [
     },
     {
         id: 3,
-        name: "EcoMoTech",
-        price: "$1300",
-        power: 500,
-        efficiency: 22.1,
-        warranty: "30 Years",
-        dimensions: "2100 x 1050 x 40mm",
-        weight: "24.5 kg",
+        name: "EcoMoTech", /* V6 */
+        price: "1199",
+        Motor_power: 3000,
+        Max_Speed: 90,
+        Battery: "72V35Ah",
+        Range: "80km",
+        Controller: "Votol EM150",
         description: `Ultra-premium heterojunction solar panel with industry-leading efficiency. 
         Features advanced temperature coefficient for superior performance in hot climates. 
         Ideal for limited-space installations where maximum power density is required. Features:
@@ -79,13 +79,13 @@ const products = [
 
     {
         id: 4,
-        name: "EcoMoTech X1",
-        price: "$1200",
-        power: 500,
-        efficiency: 22.1,
-        warranty: "30 Years",
-        dimensions: "2100 x 1050 x 40mm",
-        weight: "24.5 kg",
+        name: "EcoMoTech X1",  /* KingChe*/
+        price: "$1350",
+        Motor_power: 3000,
+        Max_Speed: 90,
+        Battery: "72V32Ah",
+        Range: "50km",
+        Controller: "Votol EM150",
         description: `Ultra-premium heterojunction solar panel with industry-leading efficiency. 
         Features advanced temperature coefficient for superior performance in hot climates. 
         Ideal for limited-space installations where maximum power density is required. Features:
@@ -105,13 +105,13 @@ const products = [
 
     {
         id: 5,
-        name: "EcoMoTech Y1",
-        price: "$1200",
-        power: 500,
-        efficiency: 22.1,
-        warranty: "30 Years",
-        dimensions: "2100 x 1050 x 40mm",
-        weight: "24.5 kg",
+        name: "EcoMoTech Y1", /* V8 */
+        price: "1999",
+        Motor_power: 3000,
+        Max_Speed: 90,
+        Battery: "72V60Ah",
+        Range: "130km",
+        Controller: "Votol EM150",
         description: `Ultra-premium heterojunction solar panel with industry-leading efficiency. 
         Features advanced temperature coefficient for superior performance in hot climates. 
         Ideal for limited-space installations where maximum power density is required. Features:
@@ -130,13 +130,13 @@ const products = [
     },
     {
         id: 6,
-        name: "EcoMoTech Z1",
-        price: "$1800",
-        power: 1000,
-        efficiency: 98,
-        warranty: "3 Years",
-        dimensions: "2100 x 1050 x 40mm",
-        weight: "198.5 kg",
+        name: "EcoMoTech Z1", /* King Che Mert*/
+        price: "$2499",
+        Motor_power: 400,
+        Max_Speed: 130,
+        Battery: "72V70Ah",
+        Range: "150km",
+        Controller: "Fardriver/ Votol EM150",
         description: `Ultra-premium heterojunction solar panel with industry-leading efficiency. 
         Features advanced temperature coefficient for superior performance in hot climates. 
         Ideal for limited-space installations where maximum power density is required. Features:

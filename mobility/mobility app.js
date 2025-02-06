@@ -62,24 +62,24 @@ function showProduct(id) {
             </div>
             <table class="specs-table">
                 <tr>
-                    <th>Power Output</th>
-                    <td>${product.power}W</td>
+                    <th>Motor Power</th>
+                    <td>${product.Motor_power}W</td>
                 </tr>
                 <tr>
-                    <th>Efficiency</th>
-                    <td>${product.efficiency}%</td>
+                    <th>Max Speed</th>
+                    <td>${product.Max_Speed}km/h</td>
                 </tr>
                 <tr>
-                    <th>Warranty</th>
-                    <td>${product.warranty}</td>
+                    <th>Battery</th>
+                    <td>${product.Battery}</td>
                 </tr>
                 <tr>
-                    <th>Dimensions</th>
-                    <td>${product.dimensions}</td>
+                    <th>Range</th>
+                    <td>${product.Range}</td>
                 </tr>
                 <tr>
                     <th>Weight</th>
-                    <td>${product.weight}</td>
+                    <td>${product.Controller}</td>
                 </tr>
             </table>
         </div>
