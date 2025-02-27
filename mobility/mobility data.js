@@ -3,7 +3,7 @@ const products = [
     {
         id: 1,
         name: "EcoMoTech V9", /* V9 */
-        price: "1999",
+        price: "$1999",
         Motor_power: 3000,
         Max_Speed: 90,
         Battery: "72V60Ah",
@@ -29,7 +29,7 @@ const products = [
     {
         id: 2,
         name: "Tian Niu",
-        price: "$8000",
+        price: "$1350",
         Motor_power: 400,
         Max_Speed: 20.0,
         Battery: "25 Years",
@@ -54,7 +54,7 @@ const products = [
     {
         id: 3,
         name: "EcoMoTech", /* V6 */
-        price: "1199",
+        price: "$1199",
         Motor_power: 3000,
         Max_Speed: 90,
         Battery: "72V35Ah",
@@ -106,7 +106,7 @@ const products = [
     {
         id: 5,
         name: "EcoMoTech Y1", /* V8 */
-        price: "1999",
+        price: "$1999",
         Motor_power: 3000,
         Max_Speed: 90,
         Battery: "72V60Ah",
