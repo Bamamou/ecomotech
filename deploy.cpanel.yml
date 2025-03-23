@@ -1,0 +1,13 @@
+# This file is used to deploy your application to cPanel hosting
+# Replace the placeholders with your own values 
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/afrixajs/repositories/ecomotech/
+    - /bin/cp -R BESS $DEPLOYPATH
+    - /bin/cp -R charger $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R mobility $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
