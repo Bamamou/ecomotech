@@ -329,6 +329,7 @@ body {
     margin-top: 1rem;
     display: flex;
     gap: 1rem;
+    align-items: left;
 }
 
 .reach-us .social-media a {
@@ -336,6 +337,7 @@ body {
     font-size: 1.5rem;
     transition: color 0.3s;
     margin-left: 2rem;
+    align-items: left;
 }
 
 .reach-us .social-media a:hover {
