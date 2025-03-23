@@ -276,7 +276,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
-    width: 20%; /* Ensure the button width is auto */
+    width: 30%; /* Ensure the button width is auto */
     align-self: center; /* Center the button */
 }
 
@@ -321,7 +321,7 @@ body {
     gap: 1rem;
     font-size: 1.2rem;
     font-family: 'FontAwesome'; /* Ensure you have FontAwesome included */
-    align-items: center;
+    align-items: left;
     margin-right: 0.5rem;
 }
 
