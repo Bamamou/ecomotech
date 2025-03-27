@@ -78,7 +78,7 @@ function showProduct(id) {
                     <td>${product.Range}</td>
                 </tr>
                 <tr>
-                    <th>Weight</th>
+                    <th>Controller</th>
                     <td>${product.Controller}</td>
                 </tr>
             </table>

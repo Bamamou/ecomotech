@@ -6,18 +6,25 @@ const products = [
         price: "$1999",
         Motor_power: 3000,
         Max_Speed: 90,
-        Battery: "72V60Ah",
+        Battery: "72V50Ah",
         Range: "130km",
         Controller: "Votol EM150",
-        description: `Premium monocrystalline solar panel featuring PERC cell technology. 
-        This high-efficiency panel delivers exceptional performance in low-light conditions. 
-        The anti-reflective glass coating and robust aluminum frame ensure maximum durability. 
-        Perfect for residential rooftop installations. Features:
-        • Advanced PERC technology
-        • Anti-reflective coating
-        • Salt mist and ammonia resistance
-        • PID resistance
-        • Compatible with most inverter systems`,
+        description: `<strong> EcoMoTech V9 </strong> merges power and innovation in a lightweight design, 
+        ideal for urban and off-road adventures. 
+        Its 72V lithium-ion battery (50Ah) and 3kW brushless motor deliver a 70-85 mile (130km) range, 
+        while dual hydraulic disc brakes with regenerative braking boost safety and efficiency. 
+        It comes with a 7" GPS touchscreen, customizable ride modes, and over-the-air software updates. 
+        Safety is ensured via ABS and traction control, 
+        and eco-friendly design highlights zero emissions and a recyclable battery. 
+        Backed by a 3-year warranty and 24/7 roadside assistance, 
+        it's built for performance, tech, and sustainability.<br><br>
+        <strong>Features: </strong>
+        • dual hydraulic disc brakes with ABS, TCS, and regenerative braking
+        • Keyless NFC/fingerprint ignition
+        • Smart connectivity with 7" touchscreen and GPS
+        • anti-theft tracking and OTA
+        • IP67 weatherproofing
+        • crash alert system and emergency contact notification`,
         mainImage: "img/V9 Bleu.png", // Replace with: "img/sp1000-main.jpg"
         images: [
             "img/V9 yellow Black.jpg", // Replace with: "img/sp1000-main.jpg"
@@ -28,46 +35,53 @@ const products = [
     },
     {
         id: 2,
-        name: "Tian Niu",
+        name: "EcoMo_T1",
         price: "$1350",
-        Motor_power: 400,
-        Max_Speed: 20.0,
-        Battery: "25 Years",
-        Range: "1956 x 992 x 40mm",
-        Controller: "22.5 kg",
-        description: `High-power bifacial solar panel with transparent back sheet. 
-        Captures both direct and reflected sunlight for up to 30% higher energy yield. 
-        Ideal for ground-mounted installations and carports. Features:
-        • Bifacial cell technology
-        • Double-glass construction
-        • Enhanced weak light performance
-        • Extreme weather resistance
-        • Optimized for large-scale installations`,
+        Motor_power: 3000,
+        Max_Speed: 80,
+        Battery: "72V40Ah",
+        Range: "120km",
+        Controller: "APT",
+        description: `<b> EcoMo_T1 </b> revolutionizes riding with a lightweight design, 
+        powered by a 72V/35Ah lithium-ion battery and 3kW brushless motor for a 70-75-mile (120km) range.  
+        customizable ride modes, and over-the-air updates ensure smart connectivity. 
+        ABS, traction control, and an eco-conscious recyclable battery prioritize safety and sustainability, backed by a 3-year warranty and 24/7 roadside assistance. <br><br>
+        <strong>Features: </strong>
+        • crash alert system and emergency contact notification
+        • Keyless NFC/fingerprint ignition/FOB
+        • 7" GPS touchscreen
+        • anti-theft tracking and OTA
+        • Mobile app connectivity
+        • IP67 weatherproofing`,
         mainImage: "img/tianniu.jpg", // Replace with: "img/sp1000-main.jpg"
         images: [
             "img/tianniu red.jpg", // Replace with: "img/sp1001-main.jpg"
-            "img/Kianing.jpg", // Replace with: "img/sp1001-bifacial.jpg"
+            "img/tianniu red new.avif", // Replace with: "img/sp1001-bifacial.jpg"
             "img/tianiu yellow.avif", // Replace with: "img/sp1001-structure.jpg"
             "img/tianniu green.avif" // Replace with: "img/sp1001-performance.jpg"
         ]
     },
     {
         id: 3,
-        name: "EcoMoTech", /* V6 */
+        name: "EcoMoTech_M1", /* V6 */
         price: "$1199",
         Motor_power: 3000,
         Max_Speed: 90,
         Battery: "72V35Ah",
         Range: "80km",
         Controller: "Votol EM150",
-        description: `Ultra-premium heterojunction solar panel with industry-leading efficiency. 
-        Features advanced temperature coefficient for superior performance in hot climates. 
-        Ideal for limited-space installations where maximum power density is required. Features:
-        • Heterojunction cell technology
-        • Best-in-class temperature coefficient
-        • Ultra-high power density
-        • Enhanced shade tolerance
-        • Integrated optimization`,
+        description: `<b> EcoMoTech_M1 </b> is a lightweight, tech-driven marvel for urban and off-road adventures, 
+        powered by a 72V lithium-ion battery (35Ah) and 3kW brushless motor, offering a 45-50-mile (80km) range. 
+        Dual hydraulic disc brakes with regenerative braking boost safety and efficiency, while a 7" GPS touchscreen, customizable ride modes, and over-the-air updates ensure cutting-edge connectivity. 
+        Safety features include ABS and traction control, complemented by eco-conscious zero-emissions design and a recyclable battery. 
+        Backed by a 3-year warranty and 24/7 roadside assistance, it blends performance, innovation, and sustainability. <br><br>
+        <strong>Features: </strong>
+        • crash alert system and emergency contact notification
+        • Keyless NFC/fingerprint ignition/FOB
+        • 7" GPS touchscreen
+        • anti-theft tracking and OTA
+        • Mobile app connectivity
+        • Adaptive LED lighting`,
         mainImage: "img/open.jpg", // Replace with: "img/sp1000-main.jpg"
         images: [
             "img/openframe.avif", // Replace with: "img/sp1002-main.jpg"
