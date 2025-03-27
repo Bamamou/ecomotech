@@ -166,6 +166,31 @@ const products = [
             "img/alrendo ride.avif",  // Replace with: "img/sp1002-close.jpg"
             "img/alrendo green.webp",  // Replace with: "img/sp1002-temp.jpg"
         ]
+    },
+    {
+        id: 7,
+        name: "EcoMoTech H1", /* King Che Mert*/
+        price: "$2499",
+        Motor_power: 400,
+        Max_Speed: 130,
+        Battery: "72V70Ah",
+        Range: "150km",
+        Controller: "Fardriver/ Votol EM150",
+        description: `Ultra-premium heterojunction solar panel with industry-leading efficiency. 
+        Features advanced temperature coefficient for superior performance in hot climates. 
+        Ideal for limited-space installations where maximum power density is required. Features:
+        • Heterojunction cell technology
+        • Best-in-class temperature coefficient
+        • Ultra-high power density
+        • Enhanced shade tolerance
+        • Integrated optimization`,
+        mainImage: "img/higo1.webp", // Replace with: "img/sp1000-main.jpg"
+        images: [
+            "img/higo_side.webp", // Replace with: "img/sp1002-main.jpg"
+            "img/higo_side.webp", // Replace with: "img/sp1002-tech.jpg"
+            "img/higo1.webp",  // Replace with: "img/sp1002-close.jpg"
+            "img/higo_profile.webp",  // Replace with: "img/sp1002-temp.jpg"
+        ]
     }
     // ... You can continue adding more products with unique descriptions and images
 ];
