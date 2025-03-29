@@ -102,33 +102,9 @@ const products = [
             "img/EchargeC1732BCQ.png", // Replace with: "img/sp1002-tech.jpg"
         ]
     },
+   
     {
         id: 5,
-        name: "EcoChargePu",
-        price: "$49",
-        power: 7000,
-        efficiency: 21.3,
-        warranty: "25 Years",
-        dimensions: "2008 x 1002 x 40mm",
-        weight: "23.5 kg",
-        description: `High-power bifacial solar panel with transparent back sheet. 
-        Captures both direct and reflected sunlight for up to 30% higher energy yield. 
-        Ideal for ground-mounted installations and carports. Features:
-        • Bifacial cell technology
-        • Double-glass construction
-        • Enhanced weak light performance
-        • Extreme weather resistance
-        • Optimized for large-scale installations`,
-        mainImage: "img/EcoChargeCC1732Pu.png", // Replace with: "img/sp1000-main.jpg"
-        images: [
-            "img/EcochargeCC.jpg", // Replace with: "img/sp1001-main.jpg"
-            "img/EcoChargeC1732Pu.png", // Replace with: "img/sp1001-bifacial.jpg"
-            "img/EcoChargeCC1732Pu.png", // Replace with: "img/sp1001-structure.jpg"
-            "img/EcoChargeC1732Pu.png"  // Replace with: "img/sp1001-performance.jpg"
-        ]
-    },
-    {
-        id: 6,
         name: "EcoNECharge",
         price: "$66",
         power: 7000,
@@ -152,6 +128,32 @@ const products = [
             "img/EcoNEC1732AC4.jpg", // Replace with: "img/sp1002-tech.jpg"
         ]
     },
+    {
+        id: 6,
+        name: "EcoChargePu",
+        price: "$49",
+        power: 7000,
+        efficiency: 21.3,
+        warranty: "25 Years",
+        dimensions: "2008 x 1002 x 40mm",
+        weight: "23.5 kg",
+        description: `High-power bifacial solar panel with transparent back sheet. 
+        Captures both direct and reflected sunlight for up to 30% higher energy yield. 
+        Ideal for ground-mounted installations and carports. Features:
+        • Bifacial cell technology
+        • Double-glass construction
+        • Enhanced weak light performance
+        • Extreme weather resistance
+        • Optimized for large-scale installations`,
+        mainImage: "img/EcoChargeCC1732Pu.png", // Replace with: "img/sp1000-main.jpg"
+        images: [
+            "img/EcochargeCC.jpg", // Replace with: "img/sp1001-main.jpg"
+            "img/EcoChargeC1732Pu.png", // Replace with: "img/sp1001-bifacial.jpg"
+            "img/EcoChargeCC1732Pu.png", // Replace with: "img/sp1001-structure.jpg"
+            "img/EcoChargeC1732Pu.png"  // Replace with: "img/sp1001-performance.jpg"
+        ]
+    },
+
     {
         id: 7,
         name: "EcoChargeC",
